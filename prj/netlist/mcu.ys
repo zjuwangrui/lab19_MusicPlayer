@@ -1,0 +1,5 @@
+read_verilog -sv -formal -overwrite {workspace}/src/code/music_player/mcu/mcu_controller.v
+read_verilog -sv -formal -overwrite {workspace}/src/code/music_player/mcu/mcu_counter.v
+read_verilog -sv -formal -overwrite {workspace}/src/code/music_player/mcu/mcu.v
+design -reset-vlog; proc;
+write_json {workspace}/prj/netlist/mcu.json

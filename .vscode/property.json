@@ -1,0 +1,25 @@
+{
+    "toolChain": "xilinx",
+    "prjName": {
+        "PL": "lab3",
+        "PS": "template"
+    },
+    "arch" : {
+        "structure" : "custom",
+        "prjPath" : "prj/",
+        "hardware" : {
+            "src"  : "src/code/",
+            "sim"  : "src/testbench/",
+            "data" : ""
+        },
+        "software" : {
+            "src"  : "",
+            "data" : ""
+        }
+    },
+    "IP_REPO" : [],
+    "soc": {
+        "core": "none"
+    },
+    "device": "none"
+}
