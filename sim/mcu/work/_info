@@ -10,7 +10,7 @@ z2
 cModel Technology
 dD:/program/intelFPGA/20.1/modelsim_ase/win32aloem
 vmcu
-Z0 !s110 1776837485
+Z0 !s110 1777008837
 !i10b 1
 !s100 cd1AR1ObghSlGX18Y:BNC1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/
 w1776235642
 8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v
 FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v
-!i122 0
+!i122 8
 L0 1 40
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1776837485.000000
+Z5 !s108 1777008837.000000
 !s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v|
 !i113 1
@@ -43,7 +43,7 @@ R3
 w1776235618
 8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v
 FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v
-!i122 1
+!i122 9
 L0 1 67
 R4
 r1
@@ -56,7 +56,7 @@ R5
 R6
 R7
 vmcu_counter
-R0
+Z8 !s110 1777008838
 !i10b 1
 !s100 @TP<C9;ZcCaXI?6mgNZK_2
 R1
@@ -66,7 +66,7 @@ R3
 w1776235630
 8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v
 FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v
-!i122 2
+!i122 10
 L0 1 13
 R4
 r1
@@ -78,8 +78,31 @@ R5
 !i113 1
 R6
 R7
+vmcu_tb
+R8
+!i10b 1
+!s100 QTYRm;:dFO7o`H]13[Y>O2
+R1
+I=V18V;5_z^];m>Oo>VYei3
+R2
+R3
+w1777008652
+Z9 8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v
+Z10 FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v
+!i122 11
+L0 9 66
+R4
+r1
+!s85 0
+31
+!s108 1777008838.000000
+Z11 !s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v|
+!i113 1
+R6
+R7
 vmcu_tb_v
-R0
+!s110 1776837485
 !i10b 1
 !s100 `hn@QJQ@MZQACA2N^1oMF1
 R1
@@ -87,17 +110,17 @@ ITZ]nD9N4V3>4iC[iOHPLM1
 R2
 R3
 w1771996369
-8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v
-FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v
+R9
+R10
 !i122 3
 L0 9 62
 R4
 r1
 !s85 0
 31
-R5
-!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v|
+!s108 1776837485.000000
+R11
+R12
 !i113 1
 R6
 R7

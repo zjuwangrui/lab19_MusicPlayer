@@ -62,7 +62,7 @@ module mcu_tb;
     #(delay)   next = 0; 
     #(delay*5) next = 1;		
     #(delay)   next = 0;   
-		#(delay*5)  $finish();;	
+		#(delay*5)  $finish();	
 	
 	end
 	initial begin

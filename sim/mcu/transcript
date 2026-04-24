@@ -1,0 +1,41 @@
+# Loading project mcu
+# Compile of mcu.v was successful.
+# Compile of mcu_controller.v was successful.
+# Compile of mcu_counter.v was successful.
+# Compile of mcu_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mcu_tb_v
+# vsim work.mcu_tb_v 
+# Start time: 13:34:24 on Apr 24,2026
+# Loading work.mcu_tb_v
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+vsim work.mcu_tb
+# End time: 13:35:01 on Apr 24,2026, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim work.mcu_tb 
+# Start time: 13:35:01 on Apr 24,2026
+# Loading work.mcu_tb
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+vsim work.mcu_tb
+# End time: 13:35:23 on Apr 24,2026, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim work.mcu_tb 
+# Start time: 13:35:23 on Apr 24,2026
+# Loading work.mcu_tb
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+add wave sim:/mcu_tb/*
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/mcu_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(69)
+#    Time: 0 ps  Iteration: 0  Instance: /mcu_tb
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(65)
+#    Time: 686 ns  Iteration: 0  Instance: /mcu_tb
+# Break in Module mcu_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v line 65
+# End time: 13:44:54 on Apr 24,2026, Elapsed time: 0:09:31
+# Errors: 1, Warnings: 1
