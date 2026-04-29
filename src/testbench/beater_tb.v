@@ -59,7 +59,7 @@ module beater_tb;
     
     // 生成 VCD 波形文件
     initial begin
-        $dumpfile("beater.vcd");
+        $dumpfile("prj/vcd/beater.vcd");
         $dumpvars(0, beater_tb);
     end
     

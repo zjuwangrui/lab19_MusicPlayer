@@ -61,13 +61,13 @@ module judge_tb;
         $finish();
     end
     
-    // 打印波形信息（可选）
+    // 打印波形信息
     initial begin
-        $dumpfile("judge.vcd");
+        $dumpfile("prj/vcd/judge.vcd");
         $dumpvars(0, judge_tb);
     end
     
-    // 监控信号变化（可选，用于调试）
+    // 监控信号变化
     initial begin
         $monitor("Time=%0t, duration=%b, co=%b, song_done=%b", 
                   $time, duration, co, song_done);
