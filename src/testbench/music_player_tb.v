@@ -5,7 +5,7 @@
 // Engineer:qmj
 ////////////////////////////////////////////////////////////////////////////////
 
-module music_player_tb_v;
+module music_player_tb;
    parameter delay=10; 
 	// Inputs
 	reg clk;
@@ -48,11 +48,15 @@ module music_player_tb_v;
 			#(delay*5)  NewFrame = 1;
 			#(delay) 	NewFrame = 0;
 		 end
-	  #(delay*10) $stop;
+	  #(delay*10) $finish();
          
     end
 	
 	//clock
   always 		#(delay/2) clk=~clk;
+  initial begin
+	$dumpfile("prj/vcd/music_player_tb.vcd");
+	$dumpvars(0,music_player_tb );
+  end
 endmodule
 
