@@ -60,7 +60,8 @@ module music_player
         .sampling_pulse   	(ready    ),
         .beat             	(beat              ),
         .note_done        	(note_done         ),
-        .sample           	(sample            )
+        .sample           	(sample            ),
+        .sample_ready       (              )
     );
     
     // output declaration of module syncer
@@ -74,7 +75,7 @@ module music_player
     // output declaration of module beater
     
     beater #(
-        .n            	(sim ? 64 : 1000) // set to 64 for simulation, 1000 for synthesis
+        .n            	(sim ? 64 : 1000), // set to 64 for simulation, 1000 for synthesis
         .counter_bits 	(sim ? 6 : 10) // set to 6 for simulation, 10 for synthesis)
     )
     u_beater(

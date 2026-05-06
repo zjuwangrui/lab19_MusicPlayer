@@ -1,0 +1,519 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/syncer
+vadder
+Z0 !s110 1778076142
+!i10b 1
+!s100 HdcY:O`[eLRod2n3AV;Ha1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITh7;HgMX8bjFLadB=^a4Z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/music_player
+w1776694647
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/adder.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/adder.v
+!i122 33
+Z4 L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1778076142.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/adder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vaddr_process
+R0
+!i10b 1
+!s100 R7fPIa]<hcn7maLc8nlN?3
+R1
+I7OLFB7`Ek<0Z8T7Q3@1R?1
+R2
+R3
+w1778063757
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/addr_process.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/addr_process.v
+!i122 34
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/addr_process.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/addr_process.v|
+!i113 1
+R7
+R8
+vbeater
+Z9 !s110 1778076141
+!i10b 1
+!s100 L8Kb90@V3mKVFf8MK>0PX2
+R1
+IDUQ?S^z7[BCR94N48mOPI1
+R2
+R3
+w1778069505
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v
+!i122 24
+L0 1 22
+R5
+r1
+!s85 0
+31
+Z10 !s108 1778076141.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v|
+!i113 1
+R7
+R8
+vdata_process
+R0
+!i10b 1
+!s100 b;LXcno:K0J1FI[HTaRcM2
+R1
+IJ`;F6P?213LPR@ZzF[FHU2
+R2
+R3
+w1776770777
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/data_process.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/data_process.v
+!i122 35
+L0 1 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/data_process.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/data_process.v|
+!i113 1
+R7
+R8
+vDDS
+R0
+!i10b 1
+!s100 YKnON[LliA3_4dj6NGH`53
+R1
+ITf>IVb86LDdek;349jLP<3
+R2
+R3
+w1778063961
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v
+!i122 36
+L0 1 100
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v|
+!i113 1
+R7
+R8
+n@d@d@s
+vDFF
+R0
+!i10b 1
+!s100 `5fmzWcn<HMBJ<Y8bgiHh1
+R1
+IF^mbm9>OZPE1Y99JjVnUV1
+R2
+R3
+w1776694544
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v
+!i122 37
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v|
+!i113 1
+R7
+R8
+n@d@f@f
+vfrequency_rom
+R0
+!i10b 1
+!s100 <W]l]jUHNZ:lzM;>;K^271
+R1
+I@BjU>Y?^o_ABDMgOnS[JY0
+R2
+R3
+w1771996369
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/frequency_rom.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/frequency_rom.v
+!i122 29
+L0 1 83
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/frequency_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/frequency_rom.v|
+!i113 1
+R7
+R8
+vjudge
+R0
+!i10b 1
+!s100 8P[Rib1F<an10L1bl9CPV2
+R1
+IZeWdC@]k4mkm`fYA>^6:O0
+R2
+R3
+w1778061721
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v
+!i122 39
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v|
+!i113 1
+R7
+R8
+vmcu
+R9
+!i10b 1
+!s100 f]J?00[J[ClKAk2Y1=BdT1
+R1
+I0VQBQe72[<Qf?KZca]HIm2
+R2
+R3
+w1778046325
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v
+!i122 25
+L0 1 40
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu.v|
+!i113 1
+R7
+R8
+vmcu_controller
+R9
+!i10b 1
+!s100 aJ^;d^LT0M`j?VDGHTMGW0
+R1
+ITDC2BTnZ;142HNKHZ;h=;2
+R2
+R3
+w1776235618
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v
+!i122 26
+L0 1 67
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_controller.v|
+!i113 1
+R7
+R8
+vmcu_counter
+R9
+!i10b 1
+!s100 @TP<C9;ZcCaXI?6mgNZK_2
+R1
+IUY_gJ7JZh_QQeTaD[<F>c3
+R2
+R3
+w1776235630
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v
+!i122 27
+L0 1 13
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/mcu/mcu_counter.v|
+!i113 1
+R7
+R8
+vmusic_player
+R9
+!i10b 1
+!s100 ZYCYA=9PGN[h[LSdnOMSa1
+R1
+IV9Fd8929nOajel4]n]94X3
+R2
+R3
+w1778076029
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v
+!i122 23
+L0 1 88
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v|
+!i113 1
+R7
+R8
+vmusic_player_tb
+Z11 !s110 1778076143
+!i10b 1
+!s100 X6_`VfZC4dbO<7GRiSYM22
+R1
+I_WEeYDPzG^FWR=J_0Uzf40
+R2
+R3
+w1778075546
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v
+!i122 45
+L0 8 56
+R5
+r1
+!s85 0
+31
+Z12 !s108 1778076143.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v|
+!i113 1
+R7
+R8
+vnote_player
+R0
+!i10b 1
+!s100 S>M4G=A0CZ9QW5YZ]QE9V3
+R1
+IGol[oSiA`BoklMoT]TlG51
+R2
+R3
+w1778066145
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v
+!i122 30
+L0 1 85
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v|
+!i113 1
+R7
+R8
+vnp_controller
+R0
+!i10b 1
+!s100 LXj0KTAjP88i2H[g9b=kH1
+R1
+ISMiHOM;F4g6j4iczdJ4bn2
+R2
+R3
+w1778062295
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/np_controller.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/np_controller.v
+!i122 31
+L0 1 61
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/np_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/np_controller.v|
+!i113 1
+R7
+R8
+vsine_rom
+R0
+!i10b 1
+!s100 g`e8P8lbBX]`ZcJ6ZUj5Y3
+R1
+IH=DgZ]FAU>nlRTWjJ21SE2
+R2
+R3
+w1776387069
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v
+!i122 38
+L0 1 1033
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v|
+!i113 1
+R7
+R8
+vsong_reader
+R0
+!i10b 1
+!s100 z>O8TYO:JTm2D=AkLdGXf1
+R1
+IG30F]Yn0V1VRz]8SO?i[R3
+R2
+R3
+w1778061353
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v
+!i122 40
+L0 1 55
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v|
+!i113 1
+R7
+R8
+vsong_rom
+R11
+!i10b 1
+!s100 9bP_4=hURXcMz?O9mWS^13
+R1
+IaIZVVzoc48oAPdc@1c`HN0
+R2
+R3
+w1776862175
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v
+!i122 41
+L0 5 152
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v|
+!i113 1
+R7
+R8
+vsr_controller
+R11
+!i10b 1
+!s100 cGYS43?mnPEcOcogMYl=J1
+R1
+I7A5LVNCAQMmY3RbiZdSz00
+R2
+R3
+w1776235659
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v
+!i122 42
+L0 1 35
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v|
+!i113 1
+R7
+R8
+vsr_counter
+R11
+!i10b 1
+!s100 PSZ]zPJ:W94g5kzHXkTjc2
+R1
+I69JSBAMAESeg34=RJbe?V1
+R2
+R3
+w1778061767
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v
+!i122 43
+L0 1 15
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v|
+!i113 1
+R7
+R8
+vsyncer
+R11
+!i10b 1
+!s100 h:aQTjOazS8LzdUf69IkC2
+R1
+Ia?T3>jEliQ16eX_;7:d8?2
+R2
+R3
+w1778069083
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v
+!i122 44
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v|
+!i113 1
+R7
+R8
+vtimer
+R0
+!i10b 1
+!s100 IzRRNICfGYzNUC;khES5T2
+R1
+I:D[J5iI`nB:T;3S@6`Mb93
+R2
+R3
+w1776386216
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/timer.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/timer.v
+!i122 32
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/timer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/timer.v|
+!i113 1
+R7
+R8

@@ -28,7 +28,8 @@ module music_player_tb;
 		.NewFrame(NewFrame), 
 		.sample(sample), 
 		.play (play), 
-		.song (song));
+		.song (song)
+	);
 
 	initial 
 	  begin
@@ -48,15 +49,16 @@ module music_player_tb;
 			#(delay*5)  NewFrame = 1;
 			#(delay) 	NewFrame = 0;
 		 end
-	  #(delay*10) $finish();
+	  #(delay*10) 
+	  $stop();
          
     end
 	
 	//clock
   always 		#(delay/2) clk=~clk;
-  initial begin
-	$dumpfile("prj/vcd/music_player_tb.vcd");
-	$dumpvars(0,music_player_tb );
-  end
+//   initial begin
+// 	$dumpfile("prj/vcd/music_player_tb.vcd");
+// 	$dumpvars(0,music_player_tb );
+//   end
 endmodule
 

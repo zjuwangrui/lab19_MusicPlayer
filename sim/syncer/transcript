@@ -1,0 +1,199 @@
+# Loading project syncer
+# reading D:/program/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project music_player
+# Compile of music_player.v was successful.
+# Compile of beater.v was successful.
+# Compile of mcu.v was successful.
+# Compile of mcu_controller.v was successful.
+# Compile of mcu_counter.v was successful.
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v was successful.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of syncer.v was successful.
+# Compile of music_player_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.music_player_tb
+# vsim work.music_player_tb 
+# Start time: 21:50:03 on May 06,2026
+# Loading work.music_player_tb
+# Loading work.music_player
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# Loading work.syncer
+# Loading work.beater
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_note_player'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb/uut/u_note_player File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v Line: 53
+# ** Warning: (vsim-3722) D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v(53): [TFMPC] - Missing connection for port 'sample_ready'.
+add wave sim:/music_player_tb/*
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/music_player_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(59)
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb
+# ** Note: $finish    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(52)
+#    Time: 1200131 ns  Iteration: 0  Instance: /music_player_tb
+# 1
+# Break in Module music_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v line 52
+restart -f
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_note_player'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb/uut/u_note_player File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v Line: 53
+# ** Warning: (vsim-3722) D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v(53): [TFMPC] - Missing connection for port 'sample_ready'.
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/music_player_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(59)
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb
+# ** Note: $finish    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(52)
+#    Time: 1200131 ns  Iteration: 0  Instance: /music_player_tb
+# 1
+# Break in Module music_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v line 52
+vsim work.music_player_tb
+# End time: 21:51:47 on May 06,2026, Elapsed time: 0:01:44
+# Errors: 1, Warnings: 3
+# vsim work.music_player_tb 
+# Start time: 21:51:47 on May 06,2026
+# Loading work.music_player_tb
+# Loading work.music_player
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# Loading work.syncer
+# Loading work.beater
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_note_player'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb/uut/u_note_player File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v Line: 53
+# ** Warning: (vsim-3722) D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v(53): [TFMPC] - Missing connection for port 'sample_ready'.
+add wave sim:/music_player_tb/*
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/music_player_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(59)
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb
+# ** Note: $finish    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(52)
+#    Time: 1200131 ns  Iteration: 0  Instance: /music_player_tb
+# 1
+# Break in Module music_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v line 52
+vsim work.music_player_tb
+# End time: 21:52:35 on May 06,2026, Elapsed time: 0:00:48
+# Errors: 1, Warnings: 3
+# vsim work.music_player_tb 
+# Start time: 21:52:35 on May 06,2026
+# Loading work.music_player_tb
+# Loading work.music_player
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# Loading work.syncer
+# Loading work.beater
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_note_player'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb/uut/u_note_player File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v Line: 53
+# ** Warning: (vsim-3722) D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v(53): [TFMPC] - Missing connection for port 'sample_ready'.
+add wave sim:/music_player_tb/*
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/music_player_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(59)
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb
+# ** Note: $finish    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(52)
+#    Time: 1200131 ns  Iteration: 0  Instance: /music_player_tb
+# 1
+# Break in Module music_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v line 52
+quit -sim
+# End time: 21:53:16 on May 06,2026, Elapsed time: 0:00:41
+# Errors: 1, Warnings: 3
+vsim work.music_player_tb
+# vsim work.music_player_tb 
+# Start time: 21:53:18 on May 06,2026
+# Loading work.music_player_tb
+# Loading work.music_player
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# Loading work.syncer
+# Loading work.beater
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_note_player'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb/uut/u_note_player File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v Line: 53
+# ** Warning: (vsim-3722) D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/music_player.v(53): [TFMPC] - Missing connection for port 'sample_ready'.
+add wave sim:/music_player_tb/*
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "prj/vcd/music_player_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(59)
+#    Time: 0 ps  Iteration: 0  Instance: /music_player_tb
+# ** Note: $finish    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/music_player_tb.v(52)
+#    Time: 1200131 ns  Iteration: 0  Instance: /music_player_tb
+# End time: 21:53:44 on May 06,2026, Elapsed time: 0:00:26
+# Errors: 1, Warnings: 2
