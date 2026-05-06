@@ -1,7 +1,7 @@
 module beater
 #(
-    parameter n = 3, // 计数器的最大值，即每n个时钟周期输出一个beat。分频比
-    parameter counter_bits = 2 // 计数器的位宽，应该满足2^counter_bits >= n
+    parameter n = 64, // 计数器的最大值，即每n个时钟周期输出一个beat。分频比
+    parameter counter_bits = 6 // 计数器的位宽，应该满足2^counter_bits >= n
 )
 (
     input clk,

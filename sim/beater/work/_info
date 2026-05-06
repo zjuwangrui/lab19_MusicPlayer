@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/note_player
+vbeater
+!s110 1778070086
+!i10b 1
+!s100 L8Kb90@V3mKVFf8MK>0PX2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDUQ?S^z7[BCR94N48mOPI1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/beater
+w1778069505
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v
+!i122 0
+L0 1 22
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1778070086.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/beater/beater.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vbeater_tb
+!s110 1778070151
+!i10b 1
+!s100 FI:]VcY32E=KcV5XOk4D:0
+R0
+ILJXVDNS7E_:FPKJ01jC?H3
+R1
+R2
+w1778070141
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/beater_tb.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/beater_tb.v
+!i122 2
+L0 3 74
+R3
+r1
+!s85 0
+31
+!s108 1778070151.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/beater_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/beater_tb.v|
+!i113 1
+R4
+R5

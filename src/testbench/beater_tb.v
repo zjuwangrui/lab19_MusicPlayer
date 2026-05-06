@@ -6,15 +6,18 @@ module beater_tb;
     reg clk;
     reg ready;
     reg reset;
-    // 输出信号
+    
+    // output declaration of module beater
     wire beat;
     
-    // 实例化待测模块
-    beater u_beater (
-        .clk(clk),
-        .ready(ready),
-        .reset(reset),
-        .beat(beat)
+    beater #(
+        .n            	(3  ),
+        .counter_bits 	(2   ))
+    u_beater(
+        .clk   	(clk    ),
+        .ready 	(ready  ),
+        .reset 	(reset  ),
+        .beat  	(beat   )
     );
     
     // 时钟：周期 10ns (100MHz)
@@ -54,14 +57,15 @@ module beater_tb;
         repeat(5) @(posedge clk);
         
         // 结束仿真
-        $finish();
+        //$finish();
+        $stop();
     end
     
     // 生成 VCD 波形文件
-    initial begin
-        $dumpfile("prj/vcd/beater.vcd");
-        $dumpvars(0, beater_tb);
-    end
+    // initial begin
+    //     $dumpfile("prj/vcd/beater.vcd");
+    //     $dumpvars(0, beater_tb);
+    // end
     
     // 监控信号变化
     initial begin
