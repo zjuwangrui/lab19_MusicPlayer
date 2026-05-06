@@ -173,3 +173,75 @@ quit -sim
 # Errors: 0, Warnings: 1
 # reading D:/program/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
 # Loading project syncer
+# Compile of syncer_tb.v failed with 1 errors.
+# Compile of syncer.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of syncer_tb.v was successful.
+# Compile of syncer.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.syncer_tb
+# vsim work.syncer_tb 
+# Start time: 20:35:10 on May 06,2026
+# Loading work.syncer_tb
+# Loading work.syncer
+add wave sim:/syncer_tb/*
+run -all
+# === Syncer Testbench ===
+# Test 1: Normal pulse (30ns)
+# Test 2: Short pulse (5ns)
+# Test 3: Back-to-back pulses
+# Test 4: Long pulse (100ns)
+# === All tests completed ===
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v(64)
+#    Time: 375 ns  Iteration: 0  Instance: /syncer_tb
+# Break in Module syncer_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v line 64
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# === Syncer Testbench ===
+# Test 1: Normal pulse (30ns)
+# Test 2: Short pulse (5ns)
+# Test 3: Back-to-back pulses
+# Test 4: Long pulse (100ns)
+# === All tests completed ===
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v(64)
+#    Time: 375 ns  Iteration: 0  Instance: /syncer_tb
+# Break in Module syncer_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v line 64
+restart -f
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# === Syncer Testbench ===
+# Test 1: Normal pulse (30ns)
+# Test 2: Short pulse (5ns)
+# Test 3: Back-to-back pulses
+# Test 4: Long pulse (100ns)
+# === All tests completed ===
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v(64)
+#    Time: 375 ns  Iteration: 0  Instance: /syncer_tb
+# Break in Module syncer_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v line 64
+quit -sim
+# End time: 20:40:50 on May 06,2026, Elapsed time: 0:05:40
+# Errors: 0, Warnings: 1
+vsim work.syncer_tb
+# vsim work.syncer_tb 
+# Start time: 20:40:53 on May 06,2026
+# Loading work.syncer_tb
+# Loading work.syncer
+add wave sim:/syncer_tb/*
+run -all
+# === Syncer Testbench ===
+# Test 1: Normal pulse (30ns)
+# Test 2: Short pulse (5ns)
+# Test 3: Back-to-back pulses
+# Test 4: Long pulse (100ns)
+# === All tests completed ===
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v(64)
+#    Time: 375 ns  Iteration: 0  Instance: /syncer_tb
+# Break in Module syncer_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v line 64
+# End time: 20:41:52 on May 06,2026, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 1

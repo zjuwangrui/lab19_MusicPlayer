@@ -1,0 +1,8 @@
+D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v {1 {vlog -work work -stats=none D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module syncer
+
+Top level modules:
+	syncer
+
+} {} {}}

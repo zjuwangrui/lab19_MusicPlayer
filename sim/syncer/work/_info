@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,49 @@ z2
 !i10f 100
 cModel Technology
 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/beater
+vsyncer
+Z0 !s110 1778070900
+!i10b 1
+!s100 h:aQTjOazS8LzdUf69IkC2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ia?T3>jEliQ16eX_;7:d8?2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/syncer
+w1778069083
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v
+!i122 2
+L0 1 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1778070900.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/syncer/syncer.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsyncer_tb
+R0
+!i10b 1
+!s100 nf8MSP8iJ?PRc;_0IALI_2
+R1
+IADa;KnSkb;Y>eTCI>AEJI2
+R2
+R3
+w1778070891
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v
+!i122 1
+L0 6 63
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/syncer_tb.v|
+!i113 1
+R6
+R7
