@@ -1,0 +1,99 @@
+# Loading project song_reader
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of song_reader_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of song_reader_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.song_reader_tb_v
+# vsim work.song_reader_tb_v 
+# Start time: 17:35:37 on May 06,2026
+# Loading work.song_reader_tb_v
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+add wave sim:/song_reader_tb_v/uut/*
+add wave sim:/song_reader_tb_v/uut/u_counter/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v(59)
+#    Time: 2236 ns  Iteration: 0  Instance: /song_reader_tb_v
+# Break in Module song_reader_tb_v at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v line 59
+quit -sim
+# End time: 17:41:02 on May 06,2026, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 3
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of song_reader_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of song_reader_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.song_reader_tb_v
+# vsim work.song_reader_tb_v 
+# Start time: 17:41:57 on May 06,2026
+# Loading work.song_reader_tb_v
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+add wave sim:/song_reader_tb_v/uut/*
+add wave sim:/song_reader_tb_v/uut/u_counter/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v(59)
+#    Time: 2236 ns  Iteration: 0  Instance: /song_reader_tb_v
+# Break in Module song_reader_tb_v at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v line 59
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of judge.v was successful.
+# Compile of song_reader.v was successful.
+# Compile of song_rom.v was successful.
+# Compile of sr_controller.v was successful.
+# Compile of sr_counter.v was successful.
+# Compile of song_reader_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v(59)
+#    Time: 2236 ns  Iteration: 0  Instance: /song_reader_tb_v
+# Break in Module song_reader_tb_v at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v line 59
+quit -sim
+# End time: 17:53:49 on May 06,2026, Elapsed time: 0:11:52
+# Errors: 0, Warnings: 2
+vsim work.song_reader_tb_v
+# vsim work.song_reader_tb_v 
+# Start time: 17:53:53 on May 06,2026
+# Loading work.song_reader_tb_v
+# Loading work.song_reader
+# Loading work.sr_counter
+# Loading work.sr_controller
+# Loading work.song_rom
+# Loading work.judge
+add wave sim:/song_reader_tb_v/uut/u_judge/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v(59)
+#    Time: 2236 ns  Iteration: 0  Instance: /song_reader_tb_v
+# Break in Module song_reader_tb_v at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v line 59
+quit -sim
+# End time: 17:56:27 on May 06,2026, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 1
+# reading D:/program/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini

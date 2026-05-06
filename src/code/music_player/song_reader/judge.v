@@ -21,5 +21,5 @@ module judge(
         q <= song_done_raw;
     end
 
-    assign song_done = song_done_raw & ~q;
+    assign song_done = song_done_raw & ~q;//将song_done_raw的脉冲宽度变成一个时钟周期
 endmodule

@@ -23,10 +23,10 @@ module song_reader(
     // output declaration of module sr_controller
     
     sr_controller #(
-        .RESET     	(00  ),
-        .WAIT      	(01  ),
-        .NEXT_NOTE 	(10  ),
-        .NEW_NOTE  	(11  ))
+        .RESET     	(2'b00  ),
+        .WAIT      	(2'b01  ),
+        .NEXT_NOTE 	(2'b10  ),
+        .NEW_NOTE  	(2'b11  ))
     u_sr_controller(
         .clk       	(clk        ),
         .reset     	(reset      ),

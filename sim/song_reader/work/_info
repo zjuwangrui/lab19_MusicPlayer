@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/mcu
+vjudge
+Z0 !s110 1778061144
+!i10b 1
+!s100 G5e7dh;mZ]z11lOV5PCa[2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@b`N<4CTBHVK><W;@hXP_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/sim/song_reader
+w1778061103
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v
+!i122 37
+L0 26 33
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1778061144.000000
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/judge.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsong_reader
+R0
+!i10b 1
+!s100 6RkGe1KoKnQ0imTI9@GY:2
+R1
+IL=RCO[J`9j4Q;>H4ORnJJ2
+R2
+R3
+w1778061116
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v
+!i122 38
+L0 1 61
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_reader.v|
+!i113 1
+R6
+R7
+vsong_reader_tb_v
+R0
+!i10b 1
+!s100 PGDQ22e7I1Nkh?[bdOI1g3
+R1
+ID6QU:@b`IDdR=TET^HYDF3
+R2
+R3
+w1778050106
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v
+!i122 42
+L0 9 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/song_reader_tb.v|
+!i113 1
+R6
+R7
+vsong_rom
+R0
+!i10b 1
+!s100 9bP_4=hURXcMz?O9mWS^13
+R1
+IaIZVVzoc48oAPdc@1c`HN0
+R2
+R3
+w1776862175
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v
+!i122 39
+L0 5 152
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/song_rom.v|
+!i113 1
+R6
+R7
+vsr_controller
+R0
+!i10b 1
+!s100 cGYS43?mnPEcOcogMYl=J1
+R1
+I7A5LVNCAQMmY3RbiZdSz00
+R2
+R3
+w1776235659
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v
+!i122 40
+L0 1 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_controller.v|
+!i113 1
+R6
+R7
+vsr_counter
+R0
+!i10b 1
+!s100 PSZ]zPJ:W94g5kzHXkTjc2
+R1
+I69JSBAMAESeg34=RJbe?V1
+R2
+R3
+w1776236253
+8D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v
+FD:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v
+!i122 41
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/song_reader/sr_counter.v|
+!i113 1
+R6
+R7
