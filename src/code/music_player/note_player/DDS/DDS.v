@@ -4,12 +4,12 @@ module DDS(
     input [21:0] K,
     input sampling_pulse,
     output [15:0] sample,
-    output reg new_sample_ready
+    output new_sample_ready
 );
     // output declaration of module adder
-    
-    wire [n-1:0] sum;
     parameter n = 22;
+    wire [n-1:0] sum;
+    wire [n-1:0] raw_addr;
     adder #(
         .n 	(n  ))
     u_adder(
@@ -21,7 +21,7 @@ module DDS(
     );
     
     // output declaration of module DFF
-    wire [n-1:0] raw_addr;
+    
     
     DFF #(
         .n 	(n  ))
@@ -47,7 +47,7 @@ module DDS(
     );
     
     // output declaration of module addr_process
-    wire [10:0] rom_addr;
+    wire [9:0] rom_addr;
     
     addr_process u_addr_process(
         .raw_addr 	(raw_addr[20:10]  ),

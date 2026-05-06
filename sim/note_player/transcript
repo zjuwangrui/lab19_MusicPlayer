@@ -1,0 +1,329 @@
+# Loading project note_player
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:13:48 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Error (suppressible): (vsim-3389) Port 'sample_ready' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v Line: 26
+# ** Error: (vsim-3063) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'D'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'Q'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+vsim work.note_player_tb
+# End time: 18:13:49 on May 06,2026, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 4
+# vsim work.note_player_tb 
+# Start time: 18:13:49 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Error (suppressible): (vsim-3389) Port 'sample_ready' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v Line: 26
+# ** Error: (vsim-3063) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'D'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'Q'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+# End time: 18:13:49 on May 06,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 4
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:20:10 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Error (suppressible): (vsim-3389) Port 'sample_ready' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v Line: 26
+# ** Error: (vsim-3063) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'D'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'Q'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+# End time: 18:20:10 on May 06,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 4
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v failed with 1 errors.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of note_player_tb.v was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of note_player.v was successful.
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:22:08 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Error: (vsim-3063) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'D'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'Q'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+# End time: 18:22:09 on May 06,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 6
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:22:16 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Error: (vsim-3063) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'D'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (6) for port 'Q'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DFF.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/note_player.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+# End time: 18:22:17 on May 06,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 4
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v was successful.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of note_player_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:26:16 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_DFF File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 92
+# Error loading design
+# End time: 18:26:16 on May 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v was successful.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of note_player_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 18:31:52 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (11) for port 'addr'. The port definition is at: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/sine_rom.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /note_player_tb/uut/u_DDS/u_sine_rom File: D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/DDS/DDS.v Line: 60
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v was successful.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of note_player_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.note_player_tb
+# End time: 18:39:50 on May 06,2026, Elapsed time: 0:07:58
+# Errors: 0, Warnings: 4
+# vsim work.note_player_tb 
+# Start time: 18:39:50 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+add wave sim:/note_player_tb/uut/u_DDS/*
+add wave sim:/note_player_tb/uut/*
+add wave sim:/note_player_tb/uut/u_np_controller/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v(54)
+#    Time: 13096 ns  Iteration: 0  Instance: /note_player_tb
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 54
+quit -sim
+# End time: 19:14:16 on May 06,2026, Elapsed time: 0:34:26
+# Errors: 0, Warnings: 1
+# Compile of DFF.v was successful.
+# Compile of frequency_rom.v was successful.
+# Compile of note_player.v was successful.
+# Compile of np_controller.v was successful.
+# Compile of timer.v was successful.
+# Compile of adder.v was successful.
+# Compile of addr_process.v was successful.
+# Compile of data_process.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DFF.v was successful.
+# Compile of sine_rom.v was successful.
+# Compile of note_player_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.note_player_tb
+# vsim work.note_player_tb 
+# Start time: 19:15:54 on May 06,2026
+# Loading work.note_player_tb
+# Loading work.note_player
+# Loading work.DFF
+# Loading work.np_controller
+# Loading work.timer
+# Loading work.frequency_rom
+# Loading work.DDS
+# Loading work.adder
+# Loading work.addr_process
+# Loading work.sine_rom
+# Loading work.data_process
+add wave sim:/note_player_tb/uut/u_np_controller/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v(54)
+#    Time: 13096 ns  Iteration: 0  Instance: /note_player_tb
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 54
+add wave sim:/note_player_tb/uut/u_timer/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v(54)
+#    Time: 13096 ns  Iteration: 0  Instance: /note_player_tb
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 54
+add wave sim:/note_player_tb/uut/u_DDS/*
+run -all
+add wave sim:/note_player_tb/uut/*
+add wave sim:/note_player_tb/uut/u_np_controller/*
+# Break key hit
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 58
+restart -f
+restart -f
+restart -f
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v(54)
+#    Time: 13096 ns  Iteration: 0  Instance: /note_player_tb
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 54
+add wave sim:/note_player_tb/uut/u_DFF/*
+restart -f
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v(54)
+#    Time: 13096 ns  Iteration: 0  Instance: /note_player_tb
+# Break in Module note_player_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/note_player_tb.v line 54
+add wave sim:/note_player_tb/uut/u_DDS/*
+quit -sim
+# End time: 20:01:21 on May 06,2026, Elapsed time: 0:45:27
+# Errors: 0, Warnings: 1

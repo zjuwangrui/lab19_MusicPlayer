@@ -1,6 +1,6 @@
 module addr_process(
     input [10:0] raw_addr,
-    output reg [10:0] rom_addr
+    output reg [9:0] rom_addr
 );
     always @(*) begin
         if(raw_addr[10] == 0) begin

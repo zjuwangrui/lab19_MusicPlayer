@@ -7,10 +7,10 @@ module judge(
     reg song_done_raw;
     always @(posedge clk) begin
         if(co) begin
-            song_done_raw <= 1'b1;
+            song_done_raw <= 1'b1;//音符播放完的时候认为音乐结束
         end
         else if(duration == 6'b 000000) begin
-            song_done_raw <= 1'b1;
+            song_done_raw <= 1'b1;//音符播放到reset的时候认为音乐结束
         end
         else begin
             song_done_raw <= 1'b0;

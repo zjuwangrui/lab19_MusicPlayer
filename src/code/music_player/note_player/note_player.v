@@ -8,20 +8,23 @@ module note_player(
     input sampling_pulse,
     input beat,
     output note_done,
-    output [15:0] sample
+    output [15:0] sample,
+    output sample_ready
 );
     // output declaration of module DFF
     wire R;
     assign R = (~play_enable) | reset;
     wire [5:0] addr;
     wire load;
-
-    DFF u_DFF(
-        .clk   	(clk    ),
-        .reset 	(R  ),
-        .D     	(note_to_load      ),
-        .EN    	(load     ),
-        .Q     	(addr      )
+    
+    DFF #(
+        .n 	(6  ))
+    u_DFF(
+        .clk 	(clk  ),
+        .R   	(R    ),
+        .EN  	(load   ),
+        .D   	(note_to_load     ),
+        .Q   	(addr    )
     );
     
     // output declaration of module np_controller
@@ -29,10 +32,10 @@ module note_player(
     wire timer_done;
 
     np_controller #(
-        .RESET 	(00  ),
-        .LOAD  	(01  ),
-        .DONE  	(10  ),
-        .WAIT  	(11  ))
+        .RESET 	(2'b00  ),
+        .LOAD  	(2'b01  ),
+        .DONE  	(2'b10  ),
+        .WAIT  	(2'b11  ))
     u_np_controller(
         .clk           	(clk            ),
         .reset         	(reset          ),
@@ -66,7 +69,7 @@ module note_player(
     
     // output declaration of module DDS
     wire [21:0] K;
-    assign K = {2'b0, dout};
+    assign K = {2'b00, dout};
     
     DDS #(
         .n 	(22  ))
@@ -76,7 +79,7 @@ module note_player(
         .K                	(K                 ),
         .sampling_pulse   	(sampling_pulse    ),
         .sample           	(sample            ),
-        .new_sample_ready 	(  )
+        .new_sample_ready 	(sample_ready )
     );
     
 endmodule

@@ -4,9 +4,9 @@ module np_controller(
     input load_new_note,
     input play_enable,
     input timer_done,
-    output timer_clear,
-    output load,
-    output note_done
+    output reg timer_clear,
+    output reg load,
+    output reg note_done
 );
     parameter RESET = 2'b00, LOAD = 2'b01, DONE = 2'b10, WAIT = 2'b11;
     reg [1:0] state, next_state;
@@ -16,7 +16,7 @@ module np_controller(
     end
 
     always @(*) begin
-        case (state);
+        case (state)
             RESET: begin
                 next_state = WAIT;
                 timer_clear = 1;

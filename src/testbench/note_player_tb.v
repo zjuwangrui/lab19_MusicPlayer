@@ -5,7 +5,7 @@
 // Engineer:qmj
 ////////////////////////////////////////////////////////////////////////////////
 
-module note_player_tb_v;
+module note_player_tb;
   parameter delay=10;
 	// Inputs
 	reg clk;
@@ -51,7 +51,7 @@ module note_player_tb_v;
 		#(delay)   new_note1 = 0;	
 	  
 	   #(delay*1200) play_enable = 0;
-           #(delay*100)    $stop;
+           #(delay*100)    $finish();
 	  end	
 	  
 //clock
@@ -83,6 +83,9 @@ module note_player_tb_v;
        end
 	   
 	   always @(*) load_new_note=new_note1||new_note2;
-	     
+	initial begin
+		$dumpfile("prj/vcd/note_player_tb.vcd");
+		$dumpvars(0,note_player_tb );
+	end
 endmodule
 
