@@ -1,6 +1,6 @@
 module music_player
 #(
-    parameter sim = 1 // set to 1 for simulation, 0 for synthesis
+    parameter sim = 0 // set to 1 for simulation, 0 for synthesis
 )
 (
     input clk,
@@ -74,8 +74,8 @@ module music_player
     // output declaration of module beater
     
     beater #(
-        .n            	(sim ? 3 : 1000) // set to 3 for simulation, 1000 for synthesis
-        .counter_bits 	(sim ? 2 : 10) // set to 2 for simulation, 10 for synthesis)
+        .n            	(sim ? 64 : 1000) // set to 64 for simulation, 1000 for synthesis
+        .counter_bits 	(sim ? 6 : 10) // set to 6 for simulation, 10 for synthesis)
     )
     u_beater(
         .clk   	(clk    ),

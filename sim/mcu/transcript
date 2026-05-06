@@ -4,32 +4,14 @@
 # Compile of mcu_counter.v was successful.
 # Compile of mcu_tb.v was successful.
 # 4 compiles, 0 failed with no errors.
-vsim work.mcu_tb_v
-# vsim work.mcu_tb_v 
-# Start time: 13:34:24 on Apr 24,2026
-# Loading work.mcu_tb_v
-# Loading work.mcu
-# Loading work.mcu_controller
-# Loading work.mcu_counter
 vsim work.mcu_tb
-# End time: 13:35:01 on Apr 24,2026, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 2
 # vsim work.mcu_tb 
-# Start time: 13:35:01 on Apr 24,2026
+# Start time: 13:54:13 on May 06,2026
 # Loading work.mcu_tb
 # Loading work.mcu
 # Loading work.mcu_controller
 # Loading work.mcu_counter
-vsim work.mcu_tb
-# End time: 13:35:23 on Apr 24,2026, Elapsed time: 0:00:22
-# Errors: 0, Warnings: 1
-# vsim work.mcu_tb 
-# Start time: 13:35:23 on Apr 24,2026
-# Loading work.mcu_tb
-# Loading work.mcu
-# Loading work.mcu_controller
-# Loading work.mcu_counter
-add wave sim:/mcu_tb/*
+add wave sim:/mcu_tb/uut/*
 run -all
 # ** Error: (vsim-7) Failed to open VCD file "prj/vcd/mcu_tb.vcd" in write mode.
 # No such file or directory. (errno = ENOENT)    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(69)
@@ -37,5 +19,47 @@ run -all
 # ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(65)
 #    Time: 686 ns  Iteration: 0  Instance: /mcu_tb
 # Break in Module mcu_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v line 65
-# End time: 13:44:54 on Apr 24,2026, Elapsed time: 0:09:31
-# Errors: 1, Warnings: 1
+add wave sim:/mcu_tb/uut/u_controller/*
+# Compile of mcu.v was successful.
+# Compile of mcu_controller.v was successful.
+# Compile of mcu_counter.v was successful.
+# Compile of mcu_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vlog -work work D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:00:45 on May 06,2026
+# vlog -reportprogress 300 -work work D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v 
+# -- Compiling module mcu_tb
+# 
+# Top level modules:
+# 	mcu_tb
+# End time: 14:00:45 on May 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 14:01:19 on May 06,2026, Elapsed time: 0:07:06
+# Errors: 1, Warnings: 3
+vsim work.mcu_tb
+# vsim work.mcu_tb 
+# Start time: 14:01:21 on May 06,2026
+# Loading work.mcu_tb
+# Loading work.mcu
+# Loading work.mcu_controller
+# Loading work.mcu_counter
+add wave sim:/mcu_tb/*
+run -all
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(65)
+#    Time: 686 ns  Iteration: 0  Instance: /mcu_tb
+# Break in Module mcu_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v line 65
+add wave sim:/mcu_tb/uut/u_controller/*
+restart -f
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v(65)
+#    Time: 686 ns  Iteration: 0  Instance: /mcu_tb
+# Break in Module mcu_tb at D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/testbench/mcu_tb.v line 65
+quit -sim
+# End time: 14:14:18 on May 06,2026, Elapsed time: 0:12:57
+# Errors: 0, Warnings: 1
+# reading D:/program/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini

@@ -13,10 +13,10 @@ module mcu(
     wire NextSong;
     
     mcu_controller #(
-        .RESET 	(00  ),
-        .PLAY  	(01  ),
-        .PAUSE 	(10  ),
-        .NEXT  	(11  ))
+        .RESET 	(2'b00  ),
+        .PLAY  	(2'b01  ),
+        .PAUSE 	(2'b10  ),
+        .NEXT  	(2'b11  ))
     u_controller(
         .clk        	(clk         ),
         .reset      	(reset       ),

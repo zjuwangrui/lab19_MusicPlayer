@@ -62,13 +62,13 @@ module mcu_tb;
     #(delay)   next = 0; 
     #(delay*5) next = 1;		
     #(delay)   next = 0;   
-		#(delay*5)  $finish();;	
+	#(delay*5)  $stop;	
 	
 	end
-	initial begin
-		$dumpfile("prj/vcd/mcu_tb.vcd");
-		$dumpvars(0,mcu_tb );
-	end
+	// initial begin
+	// 	$dumpfile("prj/vcd/mcu_tb.vcd");
+	// 	$dumpvars(0,mcu_tb );
+	// end
 	//clock
   always 		#(delay/2) clk=~clk;
 endmodule
