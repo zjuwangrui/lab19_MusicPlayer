@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a200tfbg484-1
 
@@ -132,6 +134,8 @@ read_xdc D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPl
 set_property used_in_implementation false [get_files D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/MusicPlayerTop.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.srcs/utils_1/imports/synth_1/MusicPLayerTop.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
