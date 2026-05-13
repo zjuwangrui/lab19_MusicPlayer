@@ -23,7 +23,7 @@ module MusicPLayerTop(
 	 output play
 	 );
 wire sys_clk,audio_clk;
-DCM_Audio DCM_inst
+DCM_audio DCM_inst
         (
          // Clock out ports
          .clk_out1(sys_clk),     // output clk_out1
