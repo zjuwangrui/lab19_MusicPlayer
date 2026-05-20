@@ -36,7 +36,7 @@ module music_player
     
     song_reader u_song_reader(
         .clk       	(clk        ),
-        .reset     	(reset      ),
+        .reset     	(reset || reset_play     ),
         .note_done 	(note_done  ),
         .play      	(play       ),
         .song      	(song       ),
@@ -52,7 +52,7 @@ module music_player
 
     note_player u_note_player(
         .clk              	(clk               ),
-        .reset            	(reset             ),
+        .reset            	(reset || reset_play   ),
         .play_enable      	(play       ),
         .note_to_load     	(note      ),
         .duration_to_load 	(duration  ),

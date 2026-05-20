@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a200tfbg484-1
@@ -114,7 +113,7 @@ read_verilog -library xil_defaultlib {
   D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/music_player/note_player/timer.v
   D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/src/code/MusicPlayerTop.v
 }
-read_ip -quiet d:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.srcs/sources_1/ip/DCM_audio/DCM_audio.xci
+read_ip -quiet D:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.srcs/sources_1/ip/DCM_audio/DCM_audio.xci
 set_property used_in_implementation false [get_files -all d:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.gen/sources_1/ip/DCM_audio/DCM_audio_board.xdc]
 set_property used_in_implementation false [get_files -all d:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.gen/sources_1/ip/DCM_audio/DCM_audio.xdc]
 set_property used_in_implementation false [get_files -all d:/constructing_projects/FPGA_projects/FPGA_design_course/lab19_MusicPlayer/vivado/music_player.gen/sources_1/ip/DCM_audio/DCM_audio_ooc.xdc]
